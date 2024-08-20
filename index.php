@@ -1,38 +1,32 @@
 
-<?php
-echo "My first PHP script! \n";
-$x = 5;
-var_dump($x);
-?> 
-
 
 
 <?php
 
-var_dump("Nilesh");
-echo"<br>"
+//var_dump("Nilesh");
+//echo"<br>"
 
 ?>
 
 <?php
 // This is a single-line comment
-echo "Hello, World!";
+//echo "Hello, World!";
 
 /* 
  This is a multi-line comment
  that spans multiple lines
 */
-echo "Hello, again!";
+//echo "Hello, again!";
 ?>
 
 
 <?php
-$intArray = array(10,20,40);
-echo "First element : $intArray[0],<br>";
-echo "Second element : $intArray[1],<br>";
-echo "Third element : $intArray[2],<br>";
+//$intArray = array(10,20,40);
+//echo "First element : $intArray[0],<br>";
+//echo "Second element : $intArray[1],<br>";
+//echo "Third element : $intArray[2],<br>";
 
-var_dump($intArray);
+v//ar_dump($intArray);
 
 ?>
 
@@ -40,13 +34,30 @@ var_dump($intArray);
 
 
 <?php
-$Fruits = ['apple', 'banana', 'Orange'];
-echo($Fruits[0]);
+//$Fruits = ['apple', 'banana', 'Orange'];
+//echo($Fruits[0]);
 
-$person = ['name '=> 'John','age' =>30, 'location ' => 'new york'];
+//$person = ['name '=> 'John','age' =>30, 'location ' => 'new york'];
 
-echo$person['name'];
+////echo$person['name'];
 
 ?>
 
+<?php
+class Car {
+    public $color;
 
+    public function __construct($color) {
+        $this->color = $color;
+    }
+
+    public function m() {
+        return "This car is of " . $this->color . " color.";
+    }
+}
+
+// Example usage
+
+$myCar = new Car("red");
+echo $myCar->m(); // Output: This car is of red color.
+?>
