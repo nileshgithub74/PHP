@@ -119,42 +119,65 @@
 
 
 
-$a = -5;
-echo abs($a),"<br>";
+// $a = -5;
+// echo abs($a),"<br>";
 
-$arr = [1,2,3,4,5,6,34];
-
-
-
-echo max($arr),"<br>";
-
-echo min($arr),"<br>";
-$b= 3.234;
-echo "ceil: ";
-echo ceil($b),"<br>";
-echo "floor : ";
-echo floor($b) , "<br>";
-
-
-echo  "random No is : ";
-echo rand(1,10), "<br>";
-
-
-echo pow(3,4),"<br>";
-echo "power", pow(2,3), "<br>";
-
-echo "decimal to binary :", decbin(12),"<br>"; 
-
-echo  "Convert a decimal number to hexadecimal ", dechex(233), "<br>";
-
-echo " Square root : ", sqrt(100),"<br>";
-
-echo "The log value of 100 is : ", log10(100),"<br>";
+// $arr = [1,2,3,4,5,6,34];
 
 
 
+// echo max($arr),"<br>";
+
+// echo min($arr),"<br>";
+// $b= 3.234;
+// echo "ceil: ";
+// echo ceil($b),"<br>";
+// echo "floor : ";
+// echo floor($b) , "<br>";
 
 
+// echo  "random No is : ";
+// echo rand(1,10), "<br>";
+
+
+// echo pow(3,4),"<br>";
+// echo "power", pow(2,3), "<br>";
+
+// echo "decimal to binary :", decbin(12),"<br>"; 
+
+// echo  "Convert a decimal number to hexadecimal ", dechex(233), "<br>";
+
+// echo " Square root : ", sqrt(100),"<br>";
+
+// echo "The log value of 100 is : ", log10(100),"<br>";
+
+
+
+// $num = 12;
+//  if($num <100){
+//     echo "$num is less thann 100";
+
+//  }
+
+
+
+// echo "Enter the radius";
+// $r = readline();
+
+
+// echo "The diameter of circle is : ",  ($r*2), "<br>";
+
+// echo "The area : ", ($r * $r* 3.14), "<br>";
+
+
+
+echo "Enter the length";
+$length = readline();
+echo "Enter the breadth";
+$breadth = readline();
+
+
+echo "The area of triangle is : ", ($length * $breadth), "<br>";
 
 
 
