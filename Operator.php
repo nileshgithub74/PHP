@@ -109,5 +109,35 @@
 // var_dump($a === $b);
 
 
+
+//  $a = `date`;
+//  echo "The current date is:" ;
+//  echo $a,"<br>";
+
+
+
+
+
+
+$a = -5;
+echo abs($a),"<br>";
+
+$arr = [1,2,3,4,5,6,34];
+
+
+
+echo max($arr),"<br>";
+
+echo min($arr),"<br>";
+
+$b= .234;
+
+echo ceil($b),"<br>";
+echo floor($b) , "<br>";
+
+
+
+
 ?>
+
 
