@@ -129,15 +129,27 @@ $arr = [1,2,3,4,5,6,34];
 echo max($arr),"<br>";
 
 echo min($arr),"<br>";
-
-$b= .234;
-
+$b= 3.234;
+echo "ceil: ";
 echo ceil($b),"<br>";
+echo "floor : ";
 echo floor($b) , "<br>";
+
+
+echo  "random No is : ";
+echo rand(1,10), "<br>";
+
+
+echo pow(3,4),"<br>";
+echo "power", pow(2,3), "<br>";
+
+
 
 
 
 
 ?>
+
+
 
 
