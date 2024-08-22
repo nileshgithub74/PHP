@@ -26,7 +26,7 @@
 //echo "Second element : $intArray[1],<br>";
 //echo "Third element : $intArray[2],<br>";
 
-v//ar_dump($intArray);
+//ar_dump($intArray);
 
 ?>
 
@@ -44,20 +44,29 @@ v//ar_dump($intArray);
 ?>
 
 <?php
-class Car {
-    public $color;
+// class Car {
+//     public $color;
 
-    public function __construct($color) {
-        $this->color = $color;
-    }
+//     public function __construct($color) {
+//         $this->color = $color;
+//     }
 
-    public function m() {
-        return "This car is of " . $this->color . " color.";
-    }
-}
+//     public function m() {
+//         return "This car is of " . $this->color . " color.";
+//     }
+// }
 
 // Example usage
 
-$myCar = new Car("red");
-echo $myCar->m(); // Output: This car is of red color.
+// $myCar = new Car("red");
+// echo $myCar->m(); // Output: This car is of red color.
+?>
+
+
+
+
+<?php
+// $n = null;
+// echo $n;
+// var_dump($n);
 ?>
