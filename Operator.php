@@ -143,6 +143,18 @@ echo rand(1,10), "<br>";
 echo pow(3,4),"<br>";
 echo "power", pow(2,3), "<br>";
 
+echo "decimal to binary :", decbin(12),"<br>"; 
+
+echo  "Convert a decimal number to hexadecimal ", dechex(233), "<br>";
+
+echo " Square root : ", sqrt(100),"<br>";
+
+echo "The log value of 100 is : ", log10(100),"<br>";
+
+
+
+
+
 
 
 
