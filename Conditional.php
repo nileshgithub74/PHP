@@ -43,7 +43,6 @@ function is_prime($number) {
     return true;
 }
 
-// Example usage
 $number = 29;
 if (is_prime($number)) {
     echo "$number is a prime number";
