@@ -187,4 +187,3 @@ echo "The area of triangle is : ", ($length * $breadth), "<br>";
 
 
 
-
