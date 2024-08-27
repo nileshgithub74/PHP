@@ -72,9 +72,82 @@
 
 
 
-$number = 10;
-$result = ($number % 2 == 0) ? "Even" : "Odd";
-echo "The number $number is $result.";
+// $number = 10;
+// $result = ($number % 2 == 0) ? "Even" : "Odd";
+// echo "The number $number is $result.";
+
+
+
+
+
+// echo "Enter the day: ";
+// $day = readline();
+
+// switch ($day) {
+//     case "Monday":
+//         echo "Today is Monday\n";
+//         break;
+//     case "Tuesday":
+//         echo "Today is Tuesday\n";
+//         break;
+//     case "Wednesday":
+//         echo "Today is Wednesday\n";
+//         break;
+//     case "Thursday":
+//         echo "Today is Thursday\n";
+//         break;
+//     case "Friday":
+//         echo "Today is Friday\n";
+//         break;
+//     case "Saturday":
+//         echo "Today is Saturday\n";
+//         break;
+//     case "Sunday":
+//         echo "Today is Sunday\n";
+//         break;
+//     default:
+//         echo "Invalid day\n";
+// }
+
+
+
+// echo "Enter the number for the day (1 for Monday, 2 for Tuesday, etc.): ";
+// $dayNumber = readline();
+
+// switch ($dayNumber) {
+//     case 1:
+//         echo "Today is Monday\n";
+//         break;
+//     case 2:
+//         echo "Today is Tuesday\n";
+//         break;
+//     case 3:
+//         echo "Today is Wednesday\n";
+//         break;
+//     case 4:
+//         echo "Today is Thursday\n";
+//         break;
+//     case 5:
+//         echo "Today is Friday\n";
+//         break;
+//     case 6:
+//         echo "Today is Saturday\n";
+//         break;
+//     case 7:
+//         echo "Today is Sunday\n";
+//         break;
+//     default:
+//         echo "Invalid number\n";
+// }
+
+
+
+
+
+
+
+
+
 
 
 
