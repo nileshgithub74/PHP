@@ -72,6 +72,10 @@
 
 
 
+$number = 10;
+$result = ($number % 2 == 0) ? "Even" : "Odd";
+echo "The number $number is $result.";
+
 
 
 
