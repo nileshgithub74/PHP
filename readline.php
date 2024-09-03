@@ -17,10 +17,10 @@ $quotient = $num1 / $num2;
 
 
 
-echo "Sum: $sum\n";
-echo "Difference: $difference\n";
-echo "Product: $product\n";
-echo "Quotient: $quotient\n";
+// echo "Sum: $sum\n";
+// echo "Difference: $difference\n";
+// echo "Product: $product\n";
+// echo "Quotient: $quotient\n";
 
 
 
