@@ -21,4 +21,14 @@ echo "Sum: $sum\n";
 echo "Difference: $difference\n";
 echo "Product: $product\n";
 echo "Quotient: $quotient\n";
+
+
+
+
+
+
+
+
+
+
 ?>
