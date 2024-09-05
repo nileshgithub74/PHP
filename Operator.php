@@ -110,9 +110,9 @@
 
 
 
-//  $a = `date`;
-//  echo "The current date is:" ;
-//  echo $a,"<br>";
+ $a = `date`;
+ echo "The current date is:" ;
+ echo $a,"<br>";
 
 
 
