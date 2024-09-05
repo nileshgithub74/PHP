@@ -59,6 +59,38 @@
 
 <?php
 
-$ courses = array("Int220 " => "php", "int221" =>"Laravel", "int221" =>"node js");
+// $courses = array(
+//     "Int220" => "PHP",
+//     "Int221" => "Laravel",
+//     "Int222" => "Node.js"
+// );
+
+
+// foreach ($courses as $code => $course) {
+//     echo "$code: $course<br>";
+// }
+
+
+
+$students = array(
+    array("John", "Doe", 85),
+    array("Jane", "Smith", 78),
+    array("Sam", "Brown", 90)
+);
+
+echo $students[0][0] . "<br>"; 
+echo $students[0][2] . "<br>"; 
+echo $students[1][1] . "<br>"; 
+echo $students[2][0] . "<br>"; 
+ 
+
+
+
+
+
+
+
+
+
 
 ?>
