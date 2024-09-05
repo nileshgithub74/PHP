@@ -171,19 +171,18 @@
 
 
 
-echo "Enter the length";
-$length = readline();
-echo "Enter the breadth";
-$breadth = readline();
+// echo "Enter the length";
+// $length = readline();
+// echo "Enter the breadth";
+// $breadth = readline();
 
 
-echo "The area of triangle is : ", ($length * $breadth), "<br>";
+// echo "The area of triangle is : ", ($length * $breadth), "<br>";
+
 
 
 
 
 
 ?>
-
-
 

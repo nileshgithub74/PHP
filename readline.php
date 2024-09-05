@@ -68,7 +68,27 @@
 
 
 <?php
-for ($i = 1; $i <= 5; $i++) {
-    echo "Number: $i\n";
+
+
+
+
+// for ($i = 1; $i <= 5; $i++) {
+//     echo "Number: $i\n";
+// }
+
+
+
+
+
+for ($x = 0; $x < 10; $x++) {
+    if ($x == 4) {
+        break; // Exit the loop when $x is 4
+    }
+    echo "The number is: $x <br>";
 }
+
+
+
+
+
 ?>
