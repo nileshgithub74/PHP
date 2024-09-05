@@ -1,0 +1,48 @@
+
+Creating Arrays:
+array(): Creates an array.
+array_fill(): Fills an array with values.
+array_fill_keys(): Fills an array with values, specifying keys.
+
+
+Accessing and Modifying Arrays:
+
+array_push(): Pushes one or more elements onto the end of an array.
+array_pop(): Pops the element off the end of an array.
+array_shift(): Shifts an element off the beginning of an array.
+array_unshift(): Prepends one or more elements to the beginning of an array.
+
+
+Array Operations:
+
+
+array_merge(): Merges one or more arrays.
+array_combine(): Creates an array by using one array for keys and another for its values.
+array_diff(): Computes the difference of arrays.
+array_intersect(): Computes the intersection of arrays.
+
+
+Searching and Filtering:
+
+
+array_search(): Searches the array for a given value and returns the first corresponding key if successful.
+array_filter(): Filters elements of an array using a callback function.
+
+
+Sorting:
+
+               
+sort(): Sorts an array.
+rsort(): Sorts an array in reverse order.
+asort(): Sorts an array and maintains index association.
+ksort(): Sorts an array by key.
+
+
+
+Utility Functions:
+
+array_keys(): Returns all the keys or a subset of the keys of an array.
+array_values(): Returns all the values of an array.
+
+array_reverse(): Returns an array with elements in reverse order.
+array_map(): Applies the callback to the elements of the given arrays.
